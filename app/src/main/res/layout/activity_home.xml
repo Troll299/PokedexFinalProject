@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="e.mkrivoshea.pokedexfinalproject.Home">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Title"
+        android:textSize="22sp"
+        android:text="Welcome to your pokedex!"
+        android:textColor="#000000"
+        android:gravity="center"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/lv_select"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_rap"
+        android:text="POKE RAP!!"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:layout_margin="10dp"/>
+
+    <ProgressBar
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:id="@+id/pb_progress"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVerticle="true"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="70dp"
+        android:id="@+id/iv_pokeb"/>
+
+</FrameLayout>
